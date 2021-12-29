@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cl1.css">
+        <style>
+          p {
+            font-size: 30px;
+          }
+        </style>
+    </head>
+    <body>
+      <h1 style="color: rgb(70, 83, 196); font-family: Arabic; font-size: 50px;">Bug Tracking System</h1>
+      <div class="flex-container">
+        <div> <a href="home2.html">Home</a> </div>
+        <div> <a href="about2.html">About</a> </div>
+        <div> <a href="login.html" >Login</a> </div>
+        <div> <a href="signup.html" >Sign up</a></div>
+        <div> <a href="contactus.html" >Contact us</a> </div>
+      </div>
+
+      <section>       
+        <center>
+          <img class="mySlides" style=width:1300px; height="400px" src="Issue-Tracker-820x315.jpg"	>
+          <img class="mySlides" style=width:1300px; height="400px" src="BugTrackingToolsImageDesiign1.jpg">
+          <img class="mySlides" style=width:1300px; height="400px" src="bug.jpg">
+        </center>
+      </section>
+
+      <br>   
+      <br>
+
+      <h1 style="background-color: seagreen;text-align: center;"><b>WELCOME TO BUG TRACKING SYSTEM</b></h1>
+
+      <br>
+
+      <div class="content">
+        <div>  <img style=width:450px; height="290px" src="1_qyEVIFWLPh6l7sqDMfeDCQ.png" >  <p style="color:rgb(34, 37, 41);font-size: 20px;">A bug tracking system or defect tracking system is a software application that keeps track of reported software bugs in software development projects. </p></div>
+        <div>  <img style=width:450px; height="290px" src="b-1.png" >  <p style="color:rgb(34, 37, 41);font-size: 20px;"> Many bug tracking systems, such as those used by most open-source software projects, allow end-users to enter bug reports directly. </p></div>
+        <div>  <img style=width:450px; height="290px" src="Bug-1.jpg" >  <p style="color:rgb(34, 37, 41);font-size: 20px;"> A major component of a bug tracking system is a database that records facts about known bugs. Facts may include the time a bug was reported, its severity, the erroneous program behavior, and details on how to reproduce the bug. </p></div>
+      </div>
+
+      <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+      </script>
+  
+  </body>
+  
